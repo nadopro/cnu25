@@ -58,3 +58,22 @@ http://localhost/1.html
 이렇게 만들어진 코드는 비슷하게 동작하지만 다음과 같이 동작하도록 수정해 줘.
 Body의 내용이 아무리 적어도
 화면 하단의 사이트정보 또는 카피라이트 부분이 화면의 맨 아래에 위치하도록 변경하고 싶어.ㅣ
+
+
+HTTP의 에러코드
+
+1xx: Trying
+2xx: Ok
+3xx: Temporary Error / Redirection Error
+4xx: Permanent Error / Client Error
+5xx: Server Error
+6xx: Global Error
+
+
+https://www.daum.net/
+
+
+나는 xampp를 윈도우에서 사용하고 있어.
+매번 컴퓨터를 켤때마다 xampp_control를 시작하는데,
+이것을 자동으로 해주고 싶어.
+이 방법을 설명해 줘.

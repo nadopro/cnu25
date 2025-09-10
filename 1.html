@@ -12,7 +12,16 @@
       crossorigin="anonymous"
     />
     <style>
-      body { padding-top: 4.5rem; }
+      /* Sticky footer layout */
+      html, body { height: 100%; }
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        padding-top: 4.5rem; /* space for fixed navbar */
+      }
+      main { flex: 1 0 auto; }
+      footer { margin-top: auto; }
     </style>
   </head>
   <body>
